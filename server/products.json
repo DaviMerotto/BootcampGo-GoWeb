@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name":"teclado mecanico K86",
+        "color":"gray",
+        "price":49.90,
+        "stock":17,
+        "code":"A02F56B02D",
+        "published":true,
+        "creation_date":"2024-04-08 13:59:00"
+    },
+    {
+        "id":2,
+        "name":"mouse wireless 2.4Ghz",
+        "color":"black",
+        "price":23.49,
+        "stock":34,
+        "code":"A02F56B02C",
+        "published":true,
+        "creation_date":"2024-04-08 13:59:00"
+    },
+    {
+        "id":3,
+        "name":"mousepad 80x50cm",
+        "color":"black",
+        "price":10.70,
+        "stock":0,
+        "code":"A02F66B02C",
+        "published":false,
+        "creation_date":"2024-04-08 13:59:00"
+    }
+]
