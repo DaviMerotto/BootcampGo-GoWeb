@@ -1,0 +1,52 @@
+[
+ {
+  "id": 1,
+  "name": "webcam 2160p",
+  "color": "black",
+  "price": 64.99,
+  "stock": 11,
+  "code": "15A2AB1F2A",
+  "published": true,
+  "creation_date": "2024-04-10 14:03:00"
+ },
+ {
+  "id": 2,
+  "name": "webcam 1440p",
+  "color": "black",
+  "price": 44.99,
+  "stock": 11,
+  "code": "15A2AF3F2A",
+  "published": false,
+  "creation_date": "2024-04-10 14:03:00"
+ },
+ {
+  "id": 3,
+  "name": "Microfone lapela",
+  "color": "black",
+  "price": 14.99,
+  "stock": 19,
+  "code": "25C2AB1F2A",
+  "published": false,
+  "creation_date": "2024-04-10 14:03:00"
+ },
+ {
+  "id": 4,
+  "name": "Microfone dinamico",
+  "color": "black",
+  "price": 34.99,
+  "stock": 23,
+  "code": "25C2AB1F4F",
+  "published": false,
+  "creation_date": "2024-04-10 14:03:00"
+ },
+ {
+  "id": 5,
+  "name": "Microfone cardioide",
+  "color": "black",
+  "price": 34.99,
+  "stock": 23,
+  "code": "25C2AB1F4D",
+  "published": true,
+  "creation_date": "2024-04-10 14:03:00"
+ }
+]

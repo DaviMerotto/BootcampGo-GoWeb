@@ -1,0 +1,62 @@
+[
+	{
+		"id": 1,
+		"name": "teclado mecanico RGB",
+		"color": "black",
+		"price": 54.99,
+		"stock": 10,
+		"code": "1F2B035CA",
+		"published": false,
+		"creation_date": "2024-04-10 14:03:00"
+	},
+	{
+		"id": 2,
+		"name": "mouse wireless 2.4Ghz",
+		"color": "black",
+		"price": 23.49,
+		"stock": 34,
+		"code": "A02F56B02C",
+		"published": true,
+		"creation_date": "2024-04-08 13:59:00"
+	},
+	{
+		"id": 3,
+		"name": "mousepad 80x50cm",
+		"color": "black",
+		"price": 10.7,
+		"stock": 0,
+		"code": "A02F66B02C",
+		"published": false,
+		"creation_date": "2024-04-08 13:59:00"
+	},
+	{
+		"id": 4,
+		"name": "webcam 1080p",
+		"color": "black",
+		"price": 34.99,
+		"stock": 11,
+		"code": "15A4F5CA",
+		"published": false,
+		"creation_date": "2024-04-10 14:03:00"
+	},
+	{
+		"id": 5,
+		"name": "webcam 1440p",
+		"color": "black",
+		"price": 44.99,
+		"stock": 11,
+		"code": "15A2AB5CA",
+		"published": false,
+		"creation_date": "2024-04-10 14:03:00"
+	},
+	{
+		"id": 6,
+		"name": "webcam 2160p",
+		"color": "black",
+		"price": 64.99,
+		"stock": 11,
+		"code": "15A2AB1F2A",
+		"published": false,
+		"creation_date": "2024-04-10 14:03:00"
+	}
+]
