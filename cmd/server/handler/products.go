@@ -19,6 +19,16 @@ func NewProduct(p products.Service) *ProductHandler {
 	}
 }
 
+// ListProducts godoc
+// @Summary List products
+// @Tags Product
+// @Description get products
+// @Accept  json
+// @Produce  json
+// @Param token header string true "token"
+// @Success 200 {object} web.Response
+// @Failure 400 {object} web.HttpError
+// @Router /products [GET]
 func (c *ProductHandler) GetAll() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
 		p, err := c.service.GetAll()
@@ -37,6 +47,17 @@ func (c *ProductHandler) GetAll() gin.HandlerFunc {
 	}
 }
 
+// CreateProduct godoc
+// @Summary Create product
+// @Tags Product
+// @Description create product
+// @Accept  json
+// @Produce  json
+// @Param token header string true "token"
+// @Param product body products.CreateProduct true "Add product"
+// @Success 200 {object} web.Response
+// @Failure 400 {object} web.HttpError
+// @Router /products [POST]
 func (c *ProductHandler) Create() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
 		var req products.Product
@@ -56,6 +77,17 @@ func (c *ProductHandler) Create() gin.HandlerFunc {
 	}
 }
 
+// DeleteProduct godoc
+// @Summary Delete product
+// @Tags Product
+// @Description delete product
+// @Accept  json
+// @Produce  json
+// @Param token header string true "token"
+// @Param id path int true "Product ID"
+// @Success 200 {object} web.Response
+// @Failure 400 {object} web.HttpError
+// @Router /products/{id} [DELETE]
 func (c *ProductHandler) Delete() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
 		id, err := strconv.ParseUint(ctx.Param("id"), 10, 0)
@@ -75,6 +107,17 @@ func (c *ProductHandler) Delete() gin.HandlerFunc {
 	}
 }
 
+// UpdateAllFieldsProduct godoc
+// @Summary Update all fields product
+// @Tags Product
+// @Description update all fields of product
+// @Accept  json
+// @Produce  json
+// @Param token header string true "token"
+// @Param product body products.Product true "Update all fields of product"
+// @Success 200 {object} web.Response
+// @Failure 400 {object} web.HttpError
+// @Router /products [PATCH]
 func (c *ProductHandler) UpdateFull() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
 		p := products.Product{}
@@ -129,6 +172,18 @@ func (c *ProductHandler) UpdateFull() gin.HandlerFunc {
 	}
 }
 
+// UpdateProduct godoc
+// @Summary Update product
+// @Tags Product
+// @Description uptade any field of product
+// @Accept  json
+// @Produce  json
+// @Param token header string true "token"
+// @Param id path int true "Product ID"
+// @Param product body products.UpdateProduct true "Update product"
+// @Success 200 {object} web.Response
+// @Failure 400 {object} web.HttpError
+// @Router /products/{id} [PUT]
 func (c *ProductHandler) Update() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
 		p := products.Product{}

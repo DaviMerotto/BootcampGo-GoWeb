@@ -44,9 +44,19 @@
   "name": "Microfone cardioide",
   "color": "black",
   "price": 34.99,
-  "stock": 23,
+  "stock": 20,
   "code": "25C2AB1F4D",
   "published": true,
   "creation_date": "2024-04-10 14:03:00"
+ },
+ {
+  "id": 6,
+  "name": "braco art de microfone",
+  "color": "white",
+  "price": 12.94,
+  "stock": 15,
+  "code": "25C2AB1F4C",
+  "published": true,
+  "creation_date": "2024-04-14 00:08:23"
  }
 ]
